@@ -1,0 +1,14 @@
+<odoo>
+  <data>
+
+        <menuitem id="registration_root" name="Registration" sequence="10"/>
+
+            <menuitem id="student_registration_ID_cate" name="Student Registration" parent="registration_root" action="student_registration_actions" sequence="20"/>
+            <menuitem id="res_partner_ID_cate"          name="Students"             parent="registration_root" action="res_partner_actions"          sequence="30"/>
+            <menuitem id="invoices_ID_cate"             name="Invoices"             parent="registration_root" action="invoices_actions"             sequence="40"/>
+
+
+
+
+  </data>
+</odoo>
